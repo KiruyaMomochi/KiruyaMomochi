@@ -1,6 +1,13 @@
-> 因為我們打從心底相信著彼此 \
-> 今天也以笑容聯繫著彼此 \
-> 出發前去找尋冒險吧☆
+
+🎮 Playing Princess Connect! Re:Dive \
+⚡ PowerShell is awesome! \
+🔭 Living with Pecorine, Kokkoro and Yuuki.
+
+　 盡量多吃一些美味的食物吧？\
+　　晚上就是要睡飽飽的睡覺 Time！\
+　　只要我們能為對方打起精神就好了 \
+　 最喜歡彼此？我們一直都是這樣哦 \
+　 **請多指教囉**♪
 
 <!--
 **KiruyaMomochi/KiruyaMomochi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
