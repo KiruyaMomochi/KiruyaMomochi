@@ -1,4 +1,6 @@
-### Hi there 👋
+> 因為我們打從心底相信著彼此 \
+> 今天也以笑容聯繫著彼此 \
+> 出發前去找尋冒險吧☆
 
 <!--
 **KiruyaMomochi/KiruyaMomochi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
