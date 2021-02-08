@@ -25,7 +25,10 @@ Move the .0 file to /system/etc/security/cacerts/ and chmod the file to 644.
 
     cd /data/misc/user/0/cacerts-added/
     mv 269953fb.0 /system/etc/security/cacerts/269953fb.0
-    chmod 644 /system/etc/security/cacerts/269953fb.0
+    
+    chown root:root /system/etc/security/cacerts/*
+    chmod 644 /system/etc/security/cacerts/*
+    chcon u:object_r:system_file:s0 /system/etc/security/cacerts/*
 ```
 
 Also ref. https://blog.ropnop.com/configuring-burp-suite-with-android-nougat/
