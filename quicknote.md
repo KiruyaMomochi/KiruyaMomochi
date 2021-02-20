@@ -32,3 +32,8 @@ Move the .0 file to /system/etc/security/cacerts/ and chmod the file to 644.
 ```
 
 Also ref. https://blog.ropnop.com/configuring-burp-suite-with-android-nougat/
+
+## Crk
+
+### Affnty serises
+Search for "k3yg3n mesmer1ze"
