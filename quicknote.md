@@ -37,3 +37,14 @@ Also ref. https://blog.ropnop.com/configuring-burp-suite-with-android-nougat/
 
 ### Affnty serises
 Search for "k3yg3n mesmer1ze"
+
+## Git
+
+### Using built-in SSH with Git on Windows 10
+
+```config
+[core]
+    sshCommand = C:/WINDOWS/System32/OpenSSH/ssh.exe
+```
+
+https://www.jvandertil.nl/posts/2019-01-18_usingwindowssshwithgit/
