@@ -5,6 +5,3 @@
 ---
 
 🎮 Playing Princess Connect! Re:Dive <br />🏠 Living with Pecorine, Kokkoro and Yuuki. <br />🌱 Learning how to have a fantastic day dream. <br />🐣 Want to be a child that never grow up. <br />⚡ <strong>PowerShell is awesome!</strong>
-
-> If you come here from G21G. Go back. There is nothing.
-> However, I can give you a hint: *use google translator*.
