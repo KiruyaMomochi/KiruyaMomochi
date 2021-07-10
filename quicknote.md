@@ -12,6 +12,13 @@ viewer_pdf = (explorer.exe $(wslpath -w %s)) &
 ### Android capture packet
 about:config -> fiddler.certmaker.validdays = 90
 
+### Trust User Certificate
+
+#### Magisk
+
+https://github.com/Magisk-Modules-Repo/movecert
+
+#### Manual
 
 (From https://gist.github.com/gpsarkar/ceecdba56c995737c7e637beace8e3c8#file-fiddler-capture-https-android-emulator-L4-L18)
 ```
