@@ -73,6 +73,14 @@ https://www.jvandertil.nl/posts/2019-01-18_usingwindowssshwithgit/
 git filter-branch --env-filter 'export GIT_COMMITTER_DATE="$GIT_AUTHOR_DATE"' HEAD~6..HEAD 
 ```
 
+### Sign previous commits
+
+```bash
+git rebase --exec 'git commit --amend --no-edit -n -S' -i 8fd7b22
+```
+
+https://stackoverflow.com/questions/41882919/is-there-a-way-to-gpg-sign-all-previous-commits
+
 ## SSH
 
 ### SSH through proxy
