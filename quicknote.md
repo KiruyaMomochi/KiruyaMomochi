@@ -3,6 +3,13 @@
 shell:AppsFolder
 
 ### WSL
+
+#### Get Host IP
+
+```sh
+ip route show default | grep --perl-regexp --only-matching '(?<=via )\S+'
+```
+
 #### LaTeX
 ##### texdoc: open with default Windows PDF viewer
 ```
