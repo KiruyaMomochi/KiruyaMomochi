@@ -59,3 +59,25 @@ Search for "k3yg3n mesmer1ze"
 ```
 
 https://www.jvandertil.nl/posts/2019-01-18_usingwindowssshwithgit/
+
+## SSH
+
+### SSH through proxy
+
+Windows
+
+```ssh-config
+Host *
+  # For Socks 5 proxy
+  ProxyCommand ncat --proxy-type socks5 --proxy localhost:1089 %h %p
+  # For HTTP proxy
+  ProxyCommand ncat --proxy localhost:1089 %h %p
+```
+
+Linux
+
+```ssh-config
+Host *
+  # For Socks 5 proxy
+  ProxyCommand /usr/bin/nc -x 172.23.176.1:1089 %h %p
+```
