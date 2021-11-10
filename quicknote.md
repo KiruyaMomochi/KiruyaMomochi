@@ -67,6 +67,12 @@ Search for "k3yg3n mesmer1ze"
 
 https://www.jvandertil.nl/posts/2019-01-18_usingwindowssshwithgit/
 
+### Set commiter date to author date
+
+```bash
+git filter-branch --env-filter 'export GIT_COMMITTER_DATE="$GIT_AUTHOR_DATE"' HEAD~6..HEAD 
+```
+
 ## SSH
 
 ### SSH through proxy
