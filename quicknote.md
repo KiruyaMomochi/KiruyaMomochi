@@ -102,3 +102,14 @@ Host *
   # For Socks 5 proxy
   ProxyCommand /usr/bin/nc -x 172.23.176.1:1089 %h %p
 ```
+
+## Java
+
+### Soot
+
+#### Use Kotlin
+
+```
+java -cp "soot.jar" soot.Main -pp -cp '...\JetBrains\...\plugins\Kotlin\kotlinc\lib\kotlin-stdlib.jar;.' MainKt
+```
+
