@@ -83,9 +83,17 @@ https://stackoverflow.com/questions/41882919/is-there-a-way-to-gpg-sign-all-prev
 
 ## SSH
 
+### SSH config directory
+
+```ssh-config
+Include config.d/*
+```
+
 ### SSH through proxy
 
 Windows
+
+Install `nmap` to get `ncat`.
 
 ```ssh-config
 Host *
