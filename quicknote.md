@@ -121,3 +121,11 @@ Host *
 java -cp "soot.jar" soot.Main -pp -cp '...\JetBrains\...\plugins\Kotlin\kotlinc\lib\kotlin-stdlib.jar;.' MainKt
 ```
 
+## Cloud
+
+### Oracle
+
+#### Ubuntu Firewall problem
+
+Opening port 80 on Oracle Cloud Infrastructure Compute node
+https://stackoverflow.com/questions/54794217/opening-port-80-on-oracle-cloud-infrastructure-compute-node
