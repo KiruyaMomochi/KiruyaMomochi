@@ -129,3 +129,14 @@ java -cp "soot.jar" soot.Main -pp -cp '...\JetBrains\...\plugins\Kotlin\kotlinc\
 
 Opening port 80 on Oracle Cloud Infrastructure Compute node
 https://stackoverflow.com/questions/54794217/opening-port-80-on-oracle-cloud-infrastructure-compute-node
+
+## CUDA
+
+### CMake + CUDA + VS2022 Temporary Solution
+
+1. Open `%PROGRAMFILES%\NVIDIA GPU Computing Toolkit\CUDA\v11.5\extras\visual_studio_integration\MSBuildExtensions`.
+2. Open `CUDA 11.5.props`, version number may differ.
+3. Modify `BuildCommandLineTemplate` by appending ` -allow-unsupported-compiler`.
+4. Copy all these 4 files into `%PROGRAMFILES%\Microsoft Visual Studio\2022\Preview\Msbuild\Microsoft\VC\v170\BuildCustomizations`.
+5. Try build again.
+
