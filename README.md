@@ -6,4 +6,5 @@
 
 🎮 Playing Princess Connect! Re:Dive <br />🏠 Living with Pecorine, Kokkoro and Yuuki. <br />🌱 Learning how to have a fantastic day dream. <br />🐣 Want to be a child that never grow up. <br />⚡ <strong>PowerShell is awesome!</strong>
 
+_Need to contact me? [Start a new discussion](https://github.com/KiruyaMomochi/KiruyaMomochi/discussions) in my personal repo!_\
 _**Note**: The contribution graph is useless since it includes GitHub Actions commits._
